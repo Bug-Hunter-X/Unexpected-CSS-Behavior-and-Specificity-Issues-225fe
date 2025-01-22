@@ -1,0 +1,16 @@
+/* bugSolution.css */
+
+/* Use more specific selectors to override conflicting styles */
+.container:hover .element {
+  background-color: lightblue; 
+}
+
+/* Order your CSS rules strategically to manage the cascade */
+/* More specific rules should appear later */
+
+/* Ensure selectors accurately target only the intended elements to prevent unexpected styling */
+.specific-element {
+  color: blue;
+}
+
+/* Consider using !important only as a last resort and be aware of its implications for maintainability. */
